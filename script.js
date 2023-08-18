@@ -18,6 +18,8 @@ function Bugar() {
   b_nao.style.position = "absolute";
   b_nao.style.left = `${aleX}px`;
   b_nao.style.top = `${aleY}px`;
+  
+  setTimeout(Recado,30000);
 
 }
 
@@ -36,7 +38,6 @@ function Recado (){
 
 
 
-setTimeout(Recado,30000);
 
 
 function Aceito(){
